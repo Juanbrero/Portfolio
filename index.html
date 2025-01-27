@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio personal</title>
         <meta charset="utf-8">
         <meta name="author" content="Brero Juan Manuel">
         <meta name="description" content="Portfolio personal con informacion acerca de mi, mi experiencia y mis proyectos">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
+        <!-- Menu -->
+        <div class="header-container">
+            <header>
+                <div class="logo">
+                    <a href="#">BJM</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#aboutme">ABOUT ME</a></li>
+                        <li><a href="#skill">SKILLS</a></li>
+                        <li><a href="#cv">RESUME</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>      
 
-       <header>
-
-            <img src="" class="profile-img">
-            
-            <div class="aboutme">
-                <h3><b>About me</b></h3>
-                <ul>
-                    <li>Brero Juan Manuel</li>
-                    <li>24 Years old</li>
-                    <li>Luján, Buenos Aires, Argentina</li>
-                </ul>
+        <!-- Home section-->
+         <section id="home" class="home">
+            <div class="banner-container">
+                <div class="img-container">
+                    <img src="img/profile.png" alt="Brero Juan Manuel">
+                </div>
+                <h1>Brero Juan Manuel</h1>
+                <h2>Estudiante de Licenciatura en Sistemas de Informacion</h2>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                </div>
             </div>
-
-            <div class="contact">
-                <h3><b>Contact info</b></h3>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/brerojuanmanuel/">LinkedIn profile</a></li>
-                    <li>brerojuanm@gmail.com</li>
-                    <li>+542323531334</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3><b>More projects</b></h3>
-                <ul>
-                    <li><a href="https://github.com/Juanbrero">GitHub profile</a></li>
-                </ul>
-            </div>
-
-       </header>       
+         </section>
 
     </body>
 
