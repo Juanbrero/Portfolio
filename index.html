@@ -19,14 +19,13 @@
                 </div>
                 <nav id="nav">
                     <ul>
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#aboutme">ABOUT ME</a></li>
-                        <li><a href="#skill">SKILLS</a></li>
-                        <li><a href="#cv">RESUME</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#home" onclick="select()">HOME</a></li>
+                        <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                        <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                        <li><a href="#portfolio" onclick="select()">PROJECTS</a></li>
                     </ul>
                 </nav>
-                <div class="nav-responsive">
+                <div class="nav-responsive" onclick="showHideMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </header>
@@ -188,42 +187,42 @@
                         <div class="skills-container">
                             <div class="skill">
                                 <i class="fa-brands fa-java"></i>
-                                <span>JAVA</span>
+                                JAVA
                                 <span>Advanced</span>
                             </div>
                             <div class="skill">
                                 <i class="fa-brands fa-cuttlefish"></i>
-                                <span>C</span>
+                                C
                                 <span>Advanced</span>
                             </div>
                             <div class="skill">
                                 <i class="fa-brands fa-python"></i>
-                                <span>PYTHON</span>
+                                PYTHON
                                 <span>Intermediate</span>
                             </div>
                             <div class="skill">
                                 <i class="fa-brands fa-html5"></i>
-                                <span>HTML</span>
+                                HTML
                                 <span>Intermediate</span>
                             </div>
                             <div class="skill">
                                 <i class="fa-brands fa-css3-alt"></i>
-                                <span>CSS</span>
+                                CSS
                                 <span>Basic</span>
                             </div>
                             <div class="skill">
                                 <i class="fa-brands fa-js"></i>
-                                <span>JAVASCRIPT</span>
+                                JAVASCRIPT
                                 <span>Basic</span>
                             </div>
                             <div class="skill">
                                 <i class="fa-solid fa-database"></i>
-                                <span>PL/SQL</span>
+                                PL/SQL
                                 <span>Advanced</span>
                             </div>
                             <div class="skill">
                                 <i class="fa-brands fa-git-alt"></i>
-                                <span>GIT</span>
+                                GIT
                                 <span>Advanced</span>
                             </div>
                         </div>
@@ -558,5 +557,13 @@
             </div>
         </section>
 
+        <!-- footer -->
+        <footer>
+            <a href="#home" class="top">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </footer> 
+
+        <script src="script.js"></script>
     </body>
 </html>
