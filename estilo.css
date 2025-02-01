@@ -141,6 +141,8 @@ html {
     padding: 20px 0;
 }
 
+/* aboutme */
+
 .aboutme .aboutme-container p {
     font: 18px;
     line-height: 22px;
@@ -243,6 +245,8 @@ html {
     width: 100%;
 }
 
+/* skills */
+
 .skills {
     background-color: #1e2326;
     color: #fff;
@@ -274,7 +278,6 @@ html {
 
 .skills .row .col ul {
     list-style: none;
-
 }
 
 .skills .row .col ul li {
@@ -318,4 +321,116 @@ html {
 .skills .row .col .skills-container .skill i {
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+/* portfolio */
+
+.portfolio {
+    background-color: #252a2e;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.portfolio .port-section{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.portfolio h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio .gallery .project {
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.portfolio .gallery .project img {
+    width: 100%;
+    display: block;
+    background-color: #252a2e;
+    opacity: .4;
+    border-radius: 10%;
+}
+
+.portfolio .gallery .project .h3-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 22px;
+    letter-spacing: 3px;
+    opacity: 1;
+}
+
+.portfolio .gallery .project .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+    border-radius: 10%;
+}
+
+.project:has(.overlay:hover) .h3-container {
+    opacity: 0;
+}
+
+.portfolio .gallery .project:hover .overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+.portfolio .gallery .project .overlay h4 {
+    transition: 1s;
+}
+
+.portfolio .gallery .project .overlay ul {
+    transition: 1s;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.portfolio .gallery .project .overlay ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.portfolio .gallery .project .overlay ul li i {
+    font-size: 30px;
+}
+
+.portfolio .gallery .project .overlay ul li span {
+    font-weight: bold;
+}
+
+.portfolio .gallery #project-link {
+    text-decoration: none;
+    color: #fff;
 }
