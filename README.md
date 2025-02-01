@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Brero Juan Manuel">
+        <meta name="description" content="Portfolio personal con informacion acerca de mi, mi experiencia y mis proyectos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <!-- Menu -->
+        <div class="header-container">
+            <header>
+                <div class="logo">
+                    <a href="#">BJM</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#aboutme">ABOUT ME</a></li>
+                        <li><a href="#skill">SKILLS</a></li>
+                        <li><a href="#cv">RESUME</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>      
+
+        <!-- Home section-->
+        <section id="home" class="home">
+            <div class="banner-container">
+                <div class="img-container">
+                    <img src="img/profile.png" alt="Brero Juan Manuel">
+                </div>
+                <h1>Brero, Juan M.</h1>
+                <h2>Estudiante de Licenciatura en Sistemas de Información</h2>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About me section -->
+        <section id="aboutme" class="aboutme">
+            <div class="aboutme-container">
+                <h2>About Me</h2>
+                <p><span>Hi! I`m Juan.</span> I always had a great interest in computing science, starting in the world of programming as a self-taught person driven by curiosity. This led me, years later, to formally begin my studies at Universidad Nacional de Luján. Today, that curiosity has transformed into a passion and a hobby that I enjoy, and that constantly motivates me to continue learning new things.</p>
+
+                <div class="row">
+                    <!-- Personal info -->
+                    <div class="col">
+                        <h3>Personal info.</h3>
+                        <ul>
+                            <li>
+                                <strong>Birthday</strong>
+                                12/10/2000
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                brerojuanm@gmail.com
+                            </li>
+                            <li>
+                                <strong>Tel.</strong>
+                                +54 2323 531334
+                            </li>
+                            <li>
+                                <strong>Location</strong>
+                                Luján, Buenos Aires, Argentina
+                            </li>
+                            <li>
+                                <strong>Occupation</strong>
+                                Student
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Interests -->
+                    <div class="col">
+                        <h3>Interests</h3>
+                        <div class="interests-container">
+                            <div class="interest">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>GAMES</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSIC</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-solid fa-guitar"></i>
+                                <span>GUITAR</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>SPORTS</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-solid fa-dumbbell"></i>
+                                <span>GYM</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>TRAVEL</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-solid fa-code"></i>
+                                <span>CODING</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-brands fa-linux"></i>
+                                <span>LINUX</span>
+                            </div>
+                            <div class="interest">
+                                <i class="fa-brands fa-windows"></i>
+                                <span>WINDOWS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- Skill section -->
+        <section class="skills" id="skills">
+            <div class="skills-section">
+                <h2>Skills</h2>
+                <div class="row">
+                     <!-- Soft skills -->
+                     <div class="col">
+                        <div class="soft">
+                            <h3>Soft skills</h3>
+                            <ul>
+                                <li>
+                                    Teamwork
+                                </li>
+                                <li>
+                                    Problem solving
+                                </li>
+                                <li>
+                                    Creative
+                                </li>
+                                <li>
+                                    Responsible
+                                </li>
+                                <li>
+                                    analysis capacity
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="other-skills">
+                            <h3>Other skills</h3>
+                            <ul>
+                                <li>
+                                    Maven
+                                </li>
+                                <li>
+                                    Design patterns
+                                </li>
+                                <li>
+                                    AGILE methodologies
+                                </li>
+                                <li>
+                                    Microsoft Office
+                                </li>
+                                <li>
+                                    TCP/IP Protocols
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Technical skills -->
+                     <div class="col">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-container">
+                            <div class="skill">
+                                <i class="fa-brands fa-java"></i>
+                                <span>JAVA</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-cuttlefish"></i>
+                                <span>C</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-python"></i>
+                                <span>PYTHON</span>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML</span>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <span>CSS</span>
+                                <span>Basic</span>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-js"></i>
+                                <span>JAVASCRIPT</span>
+                                <span>Basic</span>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-solid fa-database"></i>
+                                <span>PL/SQL</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill">
+                                <i class="fa-brands fa-git-alt"></i>
+                                <span>GIT</span>
+                                <span>Advanced</span>
+                            </div>
+                        </div>
+                     </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio section -->
+        <section id="portfolio" class="portfolio">
+            <div class="port-section">
+                <h2>Portfolio</h2>
+                <div class="gallery">
+                    <a id="project-link" href="https://github.com/Juanbrero/Switch-Server">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Switch Server</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JAVA</span>
+                                        </li>
+                                        <li>
+                                            <span>MAVEN</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-database"></i>
+                                            <span>PL/SQL</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-file-code"></i>
+                                            <span>JSON</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-network-wired"></i>
+                                            <span>SOCKET</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-server"></i>
+                                            <span>CLIENT/SERVER</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a id="project-link" href="https://github.com/Juanbrero/File-Encryptor">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>File Encryptor</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-python"></i>
+                                            <span>PYTHON</span>
+                                        </li>                                  
+                                        <li>
+                                            <i class="fa-solid fa-book"></i>
+                                            <span>TKINTER</span>
+                                        </li>                                  
+                                        <li>
+                                            <i class="fa-solid fa-file-shield"></i>
+                                            <span>CRIPTOGRAPHY</span>
+                                        </li>                                  
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a id="project-link" href="https://github.com/Juanbrero/Veneno---Juego-de-Cartas">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Veneno - Playing Cards</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JAVA</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JAVA SWING</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-globe"></i>
+                                            <span>RMI</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-diagram-project"></i>
+                                            <span>UML</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-layer-group"></i>
+                                            <span>MVC/OBSERVER</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a id="project-link" href="https://github.com/Juanbrero/TADs">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Abstract Data Structures</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-cuttlefish"></i>
+                                            <span>C</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <span>DATA STRUCTURES</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                            <span>SEARCH ALGORITHMS</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a id="project-link" href="https://github.com/Juanbrero/ABM-con-metadata-">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Generic CRUD</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-cuttlefish"></i>
+                                            <span>C</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-box-archive"></i>
+                                            <span>FILE SYSTEM</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-file-fragment"></i>
+                                            <span>METADATA</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a id="project-link" href="https://github.com/Juanbrero/AnalizadorLexico">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Lexical/Syntax Analyzer</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JAVA</span>
+                                        </li>
+                                        <li>
+                                            <span>MAVEN</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JFLAP</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JCUP</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JAVA SWING</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-people-group"></i>
+                                            <span>TEAMWORK</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a id="project-link" href="https://github.com/Juanbrero/db4o">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Db4Object</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-java"></i>
+                                            <span>JAVA</span>
+                                        </li>
+                                        <li>
+                                            <span>MAVEN</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-database"></i>
+                                            <span>DB4O</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a id="project-link" href="https://github.com/Juanbrero/Propuesta-de-replicacion-Firebird-3.0">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Replication Proposal for Firebird 3.0</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-solid fa-server"></i>
+                                            <span>CLIENT/SERVER</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-database"></i>
+                                            <span>FIREBIRD SQL</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-nodes"></i>
+                                            <span>REPLICATION ALGORITHMS</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a id="project-link" href="https://github.com/Juanbrero/Portfolio">
+                        <div class="project">
+                            <img src="img/project.png" alt="">
+                            <div class="h3-container">
+                                <h3>Portfolio</h3>
+                            </div>
+                            <div class="overlay">
+                                <div class="techs">
+                                    <h4>Technologies:</h4>
+                                    <ul>
+                                        <li>
+                                            <i class="fa-brands fa-html5"></i>
+                                            <span>HTML</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-css3-alt"></i>
+                                            <span>CSS</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-js"></i>
+                                            <span>JAVASCRIPT</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-brands fa-git-alt"></i>
+                                            <span>GIT</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
